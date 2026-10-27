@@ -1,16 +1,17 @@
 <!--
   Organization profile of Guarani LLC on GitHub (guarani-llc/.github, profile/README.md).
   The images in assets/ are rendered by tools/gh-profile.mjs in the guarani-llc.com repository.
+  Image URLs are absolute on purpose: the GitHub mobile app renders this file without resolving relative paths.
   House rules: no em or en dashes, figures only inside instruments labelled as sample data.
 -->
 
-<a href="https://guarani-llc.com/en/"><img src="assets/banner.svg" width="100%" alt="Guarani AI, private beta. Verify the code. Route the models. Run the devices. Clear the release."></a>
+<a href="https://guarani-llc.com/en/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/banner.svg" width="100%" alt="Guarani AI, private beta. Verify the code. Route the models. Run the devices. Clear the release."></a>
 
 <p align="center">
-  <a href="https://guarani-llc.com/en/"><img src="assets/badge-site.svg" height="28" alt="Site: guarani-llc.com"></a>
-  <a href="https://guarani-llc.com/en/docs.html"><img src="assets/badge-status.svg" height="28" alt="Status: private beta"></a>
-  <a href="https://www.nvidia.com/en-us/startups/"><img src="assets/badge-nvidia.svg" height="28" alt="Member of the NVIDIA Inception program"></a>
-  <img src="assets/badge-location.svg" height="28" alt="Based in Albuquerque, NM">
+  <a href="https://guarani-llc.com/en/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-site.svg" height="28" alt="Site: guarani-llc.com"></a>
+  <a href="https://guarani-llc.com/en/docs.html"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-status.svg" height="28" alt="Status: private beta"></a>
+  <a href="https://www.nvidia.com/en-us/startups/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-nvidia.svg" height="28" alt="Member of the NVIDIA Inception program"></a>
+  <img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-location.svg" height="28" alt="Based in Albuquerque, NM">
 </p>
 
 <p align="center">
@@ -24,7 +25,7 @@
 
 ### Guarani Verify
 
-<a href="https://guarani-llc.com/en/#platform"><img src="assets/verify.svg" width="100%" alt="Guarani Verify, sample review: SAST, DAST, architecture and API contract stages, one authorization finding with a proposed patch, triaged by five reasoning agents. Verdict HOLD."></a>
+<a href="https://guarani-llc.com/en/#platform"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/verify.svg" width="100%" alt="Guarani Verify, sample review: SAST, DAST, architecture and API contract stages, one authorization finding with a proposed patch, triaged by five reasoning agents. Verdict HOLD."></a>
 
 **Autonomous multi-agent PR and security verification.** Deterministic static and dynamic analysis runs first, then frontier reasoning agents (Claude Opus 5.5, Claude Fable 5.1, GPT-6 Sol, DeepSeek V4.1, Qwen3.8) audit each pull request in real time.
 
@@ -34,7 +35,7 @@
 
 ### Guarani Mesh
 
-<a href="https://guarani-llc.com/en/#platform"><img src="assets/mesh.svg" width="100%" alt="Guarani Mesh, sample data: traffic share and latency for Azure OpenAI, Amazon Bedrock, Gemini and open-weight GPUs, spend by team against daily budgets, a regional failover and a prefix cache hit."></a>
+<a href="https://guarani-llc.com/en/#platform"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/mesh.svg" width="100%" alt="Guarani Mesh, sample data: traffic share and latency for Azure OpenAI, Amazon Bedrock, Gemini and open-weight GPUs, spend by team against daily budgets, a regional failover and a prefix cache hit."></a>
 
 **High-throughput enterprise LLM gateway.** One OpenAI-compatible endpoint for every model your teams and agents call, engineered for low-latency agentic pipelines.
 
@@ -44,7 +45,7 @@
 
 ### Guarani Mobile CI
 
-<a href="https://guarani-llc.com/en/#platform"><img src="assets/mobile-ci.svg" width="100%" alt="Guarani Mobile CI, sample run: sign-in, search, checkout and payment sheet journeys on Pixel 8, iPhone 15 and Galaxy S24, one hold resolved by retry. Verdict CLEARED."></a>
+<a href="https://guarani-llc.com/en/#platform"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/mobile-ci.svg" width="100%" alt="Guarani Mobile CI, sample run: sign-in, search, checkout and payment sheet journeys on Pixel 8, iPhone 15 and Galaxy S24, one hold resolved by retry. Verdict CLEARED."></a>
 
 **Autonomous real-device QA runners.** End-to-end tests and UI verification on physical Android and iOS device fleets, started from the pipelines you already run.
 
@@ -54,7 +55,7 @@
 
 ## One verdict per release
 
-<a href="https://guarani-llc.com/en/#architecture"><img src="assets/trace.svg" width="100%" alt="Sample trace: a pull request flows through Guarani Verify, Guarani Mesh and Guarani Mobile CI into the policy engine, which returns one release verdict, CLEARED."></a>
+<a href="https://guarani-llc.com/en/#architecture"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/trace.svg" width="100%" alt="Sample trace: a pull request flows through Guarani Verify, Guarani Mesh and Guarani Mobile CI into the policy engine, which returns one release verdict, CLEARED."></a>
 
 Versioned policy rules turn the findings of all three modules into a single release verdict, posted to the pull request as a check with its reasons. The same findings under the same policy always produce the same verdict.
 
@@ -77,7 +78,7 @@ To report a security issue in Guarani software, coordinate a disclosure or discu
 
 <br>
 
-<a href="mailto:sylvain@guarani-llc.com?subject=Guarani%20AI%20trial%20request"><img src="assets/next-release.svg" width="100%" alt="Verify your next release. Your repository, awaiting clearance. Request a trial."></a>
+<a href="mailto:sylvain@guarani-llc.com?subject=Guarani%20AI%20trial%20request"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/next-release.svg" width="100%" alt="Verify your next release. Your repository, awaiting clearance. Request a trial."></a>
 
 <p align="center"><sub>© 2026 Guarani LLC. Based in Albuquerque, NM. · <a href="mailto:sylvain@guarani-llc.com">sylvain@guarani-llc.com</a> · <a href="https://guarani-llc.com/en/">guarani-llc.com</a></sub></p>
 <p align="center"><sub>Product and model names belong to their respective owners.</sub></p>
