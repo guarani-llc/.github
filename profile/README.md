@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://guarani-llc.com/en/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-site.svg" height="28" alt="Site: guarani-llc.com"></a>
-  <a href="https://guarani-llc.com/en/docs.html"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-status.svg" height="28" alt="Status: private beta"></a>
+  <a href="https://guarani-llc.com/en/docs"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-status.svg" height="28" alt="Status: private beta"></a>
   <a href="https://www.nvidia.com/en-us/startups/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-nvidia.svg" height="28" alt="Member of the NVIDIA Inception program"></a>
   <a href="https://www.bestpractices.dev/en/projects/16112"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-openssf.svg" height="28" alt="Guarani Verify Action: OpenSSF Best Practices passing"></a>
   <img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-location.svg" height="28" alt="Based in Albuquerque, NM">
@@ -74,6 +74,22 @@ Versioned policy rules turn the findings of all three modules into a single rele
 | Devices | Physical Android and iOS device fleets |
 | Deployment | Multi-tenant cloud with isolated tenants in US or EU regions, or a dedicated VPC on Azure, AWS or Google Cloud |
 | Interfaces | REST API (`api.guarani-llc.com/v1`, beta), [@guarani-ai/cli](https://www.npmjs.com/package/@guarani-ai/cli), [@guarani-ai/sdk](https://www.npmjs.com/package/@guarani-ai/sdk) (TypeScript) and [guarani-ai](https://pypi.org/project/guarani-ai/) (Python) |
+
+## Public interfaces and status
+
+- [Documentation](https://guarani-llc.com/en/docs) and [OpenAPI 3.1 specification](https://guarani-llc.com/openapi.json)
+- [Guarani Verify on GitHub Marketplace, v1.0.2](https://github.com/marketplace/actions/guarani-verify-ai-security-pr-review)
+- [OpenSSF Best Practices Passing](https://www.bestpractices.dev/en/projects/16112)
+- [npm CLI: @guarani-ai/cli](https://www.npmjs.com/package/@guarani-ai/cli)
+- [npm SDK: @guarani-ai/sdk](https://www.npmjs.com/package/@guarani-ai/sdk)
+- [PyPI: guarani-ai](https://pypi.org/project/guarani-ai/)
+- [System status](https://status.guarani-llc.com) and [status JSON](https://status.guarani-llc.com/status.json)
+
+The public packages connect to the private beta API using a provisioned
+workspace token. Installing a package does not provision service access.
+The organization's CI token exercises a deterministic integration contract
+fixture. Its `CLEARED` response includes `execution_mode: ci_contract_fixture`
+and `analysis_performed: false`; it is not a code analysis or security approval.
 
 ## Security and disclosure
 
