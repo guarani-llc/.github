@@ -11,6 +11,7 @@
   <a href="https://guarani-llc.com/en/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-site.svg" height="28" alt="Site: guarani-llc.com"></a>
   <a href="https://guarani-llc.com/en/docs.html"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-status.svg" height="28" alt="Status: private beta"></a>
   <a href="https://www.nvidia.com/en-us/startups/"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-nvidia.svg" height="28" alt="Member of the NVIDIA Inception program"></a>
+  <a href="https://www.bestpractices.dev/en/projects/16112"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-openssf.svg" height="28" alt="Guarani Verify Action: OpenSSF Best Practices passing"></a>
   <img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/badge-location.svg" height="28" alt="Based in Albuquerque, NM">
 </p>
 
@@ -25,7 +26,7 @@
 
 ### Guarani Verify
 
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16112/badge)](https://www.bestpractices.dev/projects/16112)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16112/badge)](https://www.bestpractices.dev/en/projects/16112)
 
 The [Guarani Verify GitHub Action](https://github.com/guarani-llc/guarani-verify-action) has earned the OpenSSF Best Practices Passing badge. [View the action on GitHub Marketplace](https://github.com/marketplace/actions/guarani-verify-ai-security-pr-review).
 
@@ -67,12 +68,12 @@ Versioned policy rules turn the findings of all three modules into a single rele
 
 | Layer | Integrations |
 | --- | --- |
-| Code and CI | GitHub, GitLab, GitHub Actions, GitLab CI |
+| Code and CI | GitHub, GitLab, [Guarani Verify Action](https://github.com/marketplace/actions/guarani-verify-ai-security-pr-review) (GitHub Actions), GitLab CI |
 | Model providers | Azure OpenAI, Amazon Bedrock, Google Gemini, open-weight models on dedicated GPU and RDU clusters |
 | Reasoning agents | Claude Opus 5.5, Claude Fable 5.1, GPT-6 Sol, DeepSeek V4.1, Qwen3.8 |
 | Devices | Physical Android and iOS device fleets |
 | Deployment | Multi-tenant cloud with isolated tenants in US or EU regions, or a dedicated VPC on Azure, AWS or Google Cloud |
-| Interfaces | REST API (`api.guarani-llc.com/v1`, beta), CLI, TypeScript and Python SDKs |
+| Interfaces | REST API (`api.guarani-llc.com/v1`, beta), [@guarani-ai/cli](https://www.npmjs.com/package/@guarani-ai/cli), [@guarani-ai/sdk](https://www.npmjs.com/package/@guarani-ai/sdk) (TypeScript) and [guarani-ai](https://pypi.org/project/guarani-ai/) (Python) |
 
 ## Security and disclosure
 
