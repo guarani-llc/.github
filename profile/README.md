@@ -25,6 +25,10 @@
 
 ### Guarani Verify
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16112/badge)](https://www.bestpractices.dev/projects/16112)
+
+The [Guarani Verify GitHub Action](https://github.com/guarani-llc/guarani-verify-action) has earned the OpenSSF Best Practices Passing badge. [View the action on GitHub Marketplace](https://github.com/marketplace/actions/guarani-verify-ai-security-pr-review).
+
 <a href="https://guarani-llc.com/en/#platform"><img src="https://raw.githubusercontent.com/guarani-llc/.github/main/profile/assets/verify.svg" width="100%" alt="Guarani Verify, sample review: SAST, DAST, architecture and API contract stages, one authorization finding with a proposed patch, triaged by five reasoning agents. Verdict HOLD."></a>
 
 **Autonomous multi-agent PR and security verification.** Deterministic static and dynamic analysis runs first, then frontier reasoning agents (Claude Opus 5.5, Claude Fable 5.1, GPT-6 Sol, DeepSeek V4.1, Qwen3.8) audit each pull request in real time.
